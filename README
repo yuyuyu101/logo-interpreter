@@ -1,0 +1,24 @@
+Logo
+
+关于Logo的介绍可以看Wiki logo
+
+已有的解释器是UCB的UCBLogo
+
+简单的说，是一个入门语言，属于类lisp。
+
+我用Python写的Logo interpreter 在https://github.com/yuyuyu101/logo-interpreter
+
+特点：
+
+可以用python增加内置函数，使用Python库里的turtle
+解释器只有几百行，短时间就课看完
+支持全部Logo语法,绘图功能去除
+主要文件:
+
+logo.py The Logo evaluator
+tests.lg Logo examples and expected output for your interpreter
+logo_parser.py The Logo parser
+logo_primitives.py Defines primitive Logo procedures via the Python Library
+logo_test.py A testing framework for Logo
+buffer.py A Buffer is a list that tracks an indexed position
+ucb.py Utility functions
