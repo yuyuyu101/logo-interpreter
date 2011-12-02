@@ -1,24 +1,77 @@
-Logo
 
-关于Logo的介绍可以看Wiki logo
+      <html>
+        <head>
+          <title>README.md</title>
+          <style type="text/css">      body{
+        background-color: #FFFFFF;
+        padding: 20px;
+        margin: 0px;
+      }
+      pre{
+        border: solid #DEDEDE 1px;
+        background-color: #F6F6F6;
+        padding: 4px;
+      }
+      code{
+        border: solid #DEDEDE 1px;
+        background-color: #F6F6F6;
+        padding: 1px;
+        font-family: monospace;
+      }
+      pre > code{
+        border: none;
+        padding: none;
+      }
+      blockquote{
+        border: dashed #AEAEAE 1px;
+        background-color: #F6F6F6;
+        padding: 4px 10px 4px 10px;
+        font-family: monospace;
+      }
+      div#main-container{
+        background-color: #F2F2F2;
+        padding: 20px;
+        margin: 0px;
+        border: solid #D0D0D0 1px;
+      }
+</style>
+          <base href="file://localhost//Users/wanghaomai/stuff/learn/SICP/logo/" />
+        </head>
+        <body>
+          <div id="main-container">
+            <h2>Logo</h2>
 
-已有的解释器是UCB的UCBLogo
+<p>关于Logo的介绍可以看Wiki <a href="http://en.wikipedia.org/wiki/Logo">logo</a></p>
 
-简单的说，是一个入门语言，属于类lisp。
+<p>已有的解释器是UCB的<a href="http://www.cs.berkeley.edu/~bh/logo.html">UCBLogo</a></p>
 
-我用Python写的Logo interpreter 在https://github.com/yuyuyu101/logo-interpreter
+<p>简单的说，是一个入门语言，属于类lisp。</p>
 
-特点：
+<p>我用Python写的Logo interpreter 在<a href="https://github.com/yuyuyu101/logo-interpreter">https://github.com/yuyuyu101/logo-interpreter</a></p>
 
-可以用python增加内置函数，使用Python库里的turtle
-解释器只有几百行，短时间就课看完
-支持全部Logo语法,绘图功能去除
-主要文件:
+<hr />
 
-logo.py The Logo evaluator
-tests.lg Logo examples and expected output for your interpreter
-logo_parser.py The Logo parser
-logo_primitives.py Defines primitive Logo procedures via the Python Library
-logo_test.py A testing framework for Logo
-buffer.py A Buffer is a list that tracks an indexed position
-ucb.py Utility functions
+<p>特点：</p>
+
+<ol>
+<li>可以用python增加内置函数，使用Python库里的<a href="http://docs.python.org/release/3.2/library/turtle.html">turtle</a></li>
+<li>解释器只有几百行，短时间就课看完</li>
+<li>支持全部Logo语法,绘图功能去除</li>
+</ol>
+
+
+<p>主要文件:</p>
+
+<ul>
+<li>logo.py   The Logo evaluator</li>
+<li>tests.lg  Logo examples and expected output for your interpreter</li>
+<li>logo_parser.py    The Logo parser</li>
+<li>logo_primitives.py    Defines primitive Logo procedures via the Python Library</li>
+<li>logo_test.py  A testing framework for Logo</li>
+<li>buffer.py A Buffer is a list that tracks an indexed position</li>
+<li>ucb.py    Utility functions</li>
+</ul>
+
+          <div>
+        </body>
+      </html>
